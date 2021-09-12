@@ -1,8 +1,10 @@
-POST http://localhost:3001/api/notes
+POST http://localhost:3001/api/blogs
 Content-Type: application/json
-Authorization: bearer
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNlcmphIiwiaWQiOiI2MTM2OGE2YTdlZDhjYzM5NDg0NDIzZWUiLCJpYXQiOjE2MzEwMzcwNTF9.UnbKhLjn-C3xD6AC_cHcivglIiwhgIqEFaqEAi92pjQ
 
 {
-    "content": "VS Code is pretty nice tool for testing REST apis",
-    "important": true
+    "title": "kolmase",
+    "author": "Serja tietenkin",
+    "url": "http://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD808.html",
+    "likes": 15
 }
